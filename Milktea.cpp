@@ -3,7 +3,6 @@
 #include <cstdlib> 
 #include <thread> 
 #include <chrono>
-#include <array> 
 #include <algorithm>
 #include <cctype>
 #ifdef PLATFORM_WINDOWS
