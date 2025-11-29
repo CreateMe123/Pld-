@@ -107,7 +107,14 @@ int main() {
                 Line('=', width - 2);
              	//store and validate input of "set2"
                set2 = getInt(">> ", set2S);
+                //I/O Exception
+                while(set2>4)
+            	{
+            	cout<<"Invalid Try again ";
+            	set2 = getInt(">> ", set2S);
+                } 
                // Return to main menu
+            
                 if (set2 == 0) {  
                     Con = 1;
                     continue;
