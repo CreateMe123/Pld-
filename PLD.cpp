@@ -55,14 +55,14 @@ int main() {
         int addonValue{0}, addonQuant{0}, productValue,quantity{0},stack;
         string addon, product;
     };
-    //Load data from inventory.dat file
-    loadDat(Stack,Price,Prod,marker);
+    
     // ============================
     // Main program loop
     // ============================
 
     while (true) {
-
+//Load data from inventory.dat file
+    loadDat(Stack,Price,Prod,marker);
         int set = 0;
         int enl{0},enl2{0};
         int Con = 0;
