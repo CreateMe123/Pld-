@@ -155,6 +155,10 @@ void loadDat(vector<int>& Stack,
                     	marker[i]="<Not available>";}
                     	marker[i];}
     }
+    for(size_t i{0};i<Stack.size();i++){
+                    	if(Stack[i]==0){
+                    	marker[i]="<Not available>";}
+                    	marker[i];}
 }
 
 //============FrontEnd======= 
